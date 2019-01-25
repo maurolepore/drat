@@ -1,7 +1,46 @@
-Package: drat
-Version: 0.0.4
-Suggests: git2r, knitr
-License: GPL (>= 2)
-MD5sum: 96a3a1f4d859b60fc83066f66e9d4761
+Package: fgeo.analyze
+Version: 1.0.3.9000
+Depends: R (>= 3.2)
+Imports: fgeo.x, fgeo.tool, dplyr, glue, graphics, grDevices, lubridate, magrittr, MASS,
+          purrr, rlang, stats, tibble, tidyr, withr
+Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 3477d30b4d4e26c972dabc27ccdfde5f
 NeedsCompilation: no
 
+Package: fgeo.plot
+Version: 1.0.4.9000
+Depends: R (>= 3.3)
+Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr, rlang,
+          stats, stringr, purrr
+Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 167c9daf86387d01690c990d053ac506
+NeedsCompilation: no
+
+Package: fgeo.tool
+Version: 1.0.3.9000
+Depends: R (>= 3.3)
+Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
+Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
+License: GPL-3
+MD5sum: bf08d2cd4cb988747596051c7a9a8023
+NeedsCompilation: no
+
+Package: fgeo.x
+Version: 1.0.1.9000
+Depends: R (>= 3.2)
+Imports: utils
+Suggests: spelling, testthat
+License: GPL-3
+MD5sum: 0ccd0e7209e68d7cf7eb8506332e8824
+NeedsCompilation: no
+
+Package: fgeo
+Version: 1.0.1.9000
+Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1), fgeo.plot (>=
+          1.0.1), cli, crayon, dplyr, glue, magrittr, purrr, rlang, rstudioapi, utils
+Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 7a279729c8f7d9caaed39ef828528008
+NeedsCompilation: no

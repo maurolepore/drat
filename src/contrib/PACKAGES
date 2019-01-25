@@ -42,5 +42,5 @@ Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1), fgeo.
           1.0.1), cli, crayon, dplyr, glue, magrittr, purrr, rlang, rstudioapi, utils
 Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
 License: GPL-3
-MD5sum: 7a279729c8f7d9caaed39ef828528008
+MD5sum: dbfbfaa17286a69c30f1d3edd5dd957d
 NeedsCompilation: no

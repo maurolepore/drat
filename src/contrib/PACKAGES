@@ -1,3 +1,14 @@
+Package: fgeo.analyze
+Version: 1.0.3
+Depends: R (>= 3.2)
+Imports: fgeo.x, fgeo.tool, dplyr, glue, graphics, grDevices, lubridate,
+        magrittr, MASS, purrr, rlang, stats, tibble, tidyr, withr
+Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
+        testthat
+License: GPL-3
+MD5sum: ecc687ff9772dc01666d0efcdd8fbbba
+NeedsCompilation: no
+
 Package: fgeo.tool
 Version: 1.0.3
 Depends: R (>= 3.3)

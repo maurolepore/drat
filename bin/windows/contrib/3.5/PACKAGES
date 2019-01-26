@@ -7,6 +7,14 @@ Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
         testthat
 License: GPL-3
 
+Package: fgeo.plot
+Version: 1.0.4
+Depends: R (>= 3.3)
+Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr,
+        rlang, stats, stringr, purrr
+Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+
 Package: fgeo.tool
 Version: 1.0.3
 Depends: R (>= 3.3)

@@ -1,15 +1,25 @@
 
-# CRAN-like repository for [__fgeo__ packages](https://forestgeo.github.io/fgeo/)
+# CRAN-like repository for [**fgeo** packages](https://forestgeo.github.io/fgeo/)
 
-'Drat' R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)
+‘Drat’ R Archive Template created by the [drat
+package](https://CRAN.R-project.org/package=drat)
 
-### Installation
+### Example
 
-Install the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
+Install the latest stable version of all [fgeo
+packages](https://forestgeo.github.io/fgeo/) with:
 
 ``` r
 these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
 install.packages("fgeo", repos = these_repos)
+```
+
+Update to the latest stable version of all [fgeo
+packages](https://forestgeo.github.io/fgeo/) with:
+
+``` r
+these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
+update.packages(repos = these_repos)
 ```
 
 ### Available packages

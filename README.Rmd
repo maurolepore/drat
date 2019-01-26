@@ -2,9 +2,9 @@
 output: github_document
 ---
 
-# CRAN-like repository for [fgeo packages](https://forestgeo.github.io/fgeo/)
+# CRAN-like repository for [__fgeo__ packages](https://forestgeo.github.io/fgeo/)
 
-Created by the [drat package](https://CRAN.R-project.org/package=drat)
+'Drat' R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment = "#>", echo = FALSE)
@@ -14,13 +14,20 @@ show_files <- function(pkgs) {
 }
 ```
 
-### Installation
+### Example
 
-Install the latest stable version of all fgeo packages with:
+Install the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
 
 ```R
 these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
 install.packages("fgeo", repos = these_repos)
+```
+
+Update to the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
+
+```R
+these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
+update.packages(repos = these_repos)
 ```
 
 ### Available packages

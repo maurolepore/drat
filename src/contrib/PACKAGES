@@ -1,3 +1,12 @@
+Package: fgeo.x
+Version: 1.0.1
+Depends: R (>= 3.2)
+Imports: utils
+Suggests: spelling, testthat
+License: GPL-3
+MD5sum: 6d4e45fc2485a4d2e73572dfa61b1e62
+NeedsCompilation: no
+
 Package: fgeo
 Version: 1.0.1
 Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1),

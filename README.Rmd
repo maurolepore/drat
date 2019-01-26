@@ -2,10 +2,6 @@
 output: github_document
 ---
 
-# CRAN-like repository for [__fgeo__ packages](https://forestgeo.github.io/fgeo/)
-
-'Drat' R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment = "#>", echo = FALSE)
 
@@ -13,6 +9,8 @@ show_files <- function(pkgs) {
   cat(fs::path_file(pkgs), sep = "\n")
 }
 ```
+
+This is a CRAN-like repository serving source and binary versions of released [__fgeo__ packages](https://forestgeo.github.io/fgeo/).
 
 ## Example
 
@@ -30,21 +28,20 @@ these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
 update.packages(repos = these_repos)
 ```
 
-## Available packages
-
-Source and binary packages are available in the `gh-pages` branch of this repository.
-
-### Source packages:
+## Available source packages:
 
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
-### Binary packages for R 3.5 on Windows:
+## Available binary packages for R 3.5 on Windows:
 
 ```{r}
 bin_pkg <- fs::dir_ls(here::here("bin/windows/contrib/3.5"), glob = "*zip")
 show_files(bin_pkg)
 ```
 
+---
+
+‘Drat’ R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)

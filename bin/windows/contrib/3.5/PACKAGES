@@ -1,3 +1,10 @@
+Package: fgeo.tool
+Version: 1.0.3
+Depends: R (>= 3.3)
+Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
+Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
+License: GPL-3
+
 Package: fgeo.x
 Version: 1.0.1
 Depends: R (>= 3.2)

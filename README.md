@@ -12,7 +12,7 @@ these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
 install.packages("fgeo", repos = these_repos)
 ```
 
-Update to the latest stable version of all [fgeo
+Update packages, including the latest stable version of all [fgeo
 packages](https://forestgeo.github.io/fgeo/) with:
 
 ``` r

@@ -1,9 +1,10 @@
 ---
-title: "CRAN-like repository for [fgeo packages](https://forestgeo.github.io/fgeo/)"
 output: github_document
 ---
 
-Created by the [drat package](https://CRAN.R-project.org/package=drat).
+# CRAN-like repository for [fgeo packages](https://forestgeo.github.io/fgeo/)
+
+Created by the [drat package](https://CRAN.R-project.org/package=drat)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment = "#>", echo = FALSE)

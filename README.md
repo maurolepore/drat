@@ -1,8 +1,7 @@
-CRAN-like repository for [fgeo
-packages](https://forestgeo.github.io/fgeo/)
-================
 
-Created by the [drat package](https://CRAN.R-project.org/package=drat).
+# CRAN-like repository for [fgeo packages](https://forestgeo.github.io/fgeo/)
+
+Created by the [drat package](https://CRAN.R-project.org/package=drat)
 
 ### Installation
 

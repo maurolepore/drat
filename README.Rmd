@@ -14,7 +14,7 @@ show_files <- function(pkgs) {
 }
 ```
 
-### Example
+## Example
 
 Install the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
 
@@ -30,18 +30,18 @@ these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
 update.packages(repos = these_repos)
 ```
 
-### Available packages
+## Available packages
 
 Source and binary packages are available in the `gh-pages` branch of this repository.
 
-#### Source packages:
+### Source packages:
 
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
-#### Binary packages for R 3.5 on Windows:
+### Binary packages for R 3.5 on Windows:
 
 ```{r}
 bin_pkg <- fs::dir_ls(here::here("bin/windows/contrib/3.5"), glob = "*zip")

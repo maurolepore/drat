@@ -1,8 +1,4 @@
-
-# CRAN-like repository for [**fgeo** packages](https://forestgeo.github.io/fgeo/)
-
-‘Drat’ R Archive Template created by the [drat
-package](https://CRAN.R-project.org/package=drat)
+This is a CRAN-like repository serving source and binary versions of released [__fgeo__ packages](https://forestgeo.github.io/fgeo/).
 
 ## Example
 
@@ -37,3 +33,7 @@ update.packages(repos = these_repos)
     #> fgeo.tool_1.0.3.zip
     #> fgeo.x_1.0.1.zip
     #> fgeo_1.0.1.zip
+
+---
+
+‘Drat’ R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)

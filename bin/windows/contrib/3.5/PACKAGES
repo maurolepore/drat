@@ -2,16 +2,16 @@ Package: fgeo.analyze
 Version: 1.0.3
 Depends: R (>= 3.2)
 Imports: fgeo.x, fgeo.tool, dplyr, glue, graphics, grDevices, lubridate,
-        magrittr, MASS, purrr, rlang, stats, tibble, tidyr, withr
+         magrittr, MASS, purrr, rlang, stats, tibble, tidyr, withr
 Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
-        testthat
+         testthat
 License: GPL-3
 
 Package: fgeo.plot
 Version: 1.0.4
 Depends: R (>= 3.3)
 Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr,
-        rlang, stats, stringr, purrr
+         rlang, stats, stringr, purrr
 Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
@@ -23,7 +23,7 @@ Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
 License: GPL-3
 
 Package: fgeo.x
-Version: 1.0.1
+Version: 1.1.0
 Depends: R (>= 3.2)
 Imports: utils
 Suggests: spelling, testthat
@@ -32,7 +32,7 @@ License: GPL-3
 Package: fgeo
 Version: 1.0.1
 Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1),
-        fgeo.plot (>= 1.0.1), cli, crayon, dplyr, glue, magrittr, purrr,
-        rlang, rstudioapi, utils
+         fgeo.plot (>= 1.0.1), cli, crayon, dplyr, glue, magrittr, purrr, rlang,
+         rstudioapi, utils
 Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
 License: GPL-3

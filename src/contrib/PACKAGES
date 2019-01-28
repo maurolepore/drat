@@ -20,12 +20,12 @@ MD5sum: b1a15fe7ad5124fd8a9c6f831bc88511
 NeedsCompilation: no
 
 Package: fgeo.tool
-Version: 1.0.3
+Version: 1.1.0
 Depends: R (>= 3.3)
 Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
 Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
 License: GPL-3
-MD5sum: 576cf69cf0a1fb1eea010d6e7c0191e0
+MD5sum: 281bc6699bcd840a17b7935634ff17fc
 NeedsCompilation: no
 
 Package: fgeo.x

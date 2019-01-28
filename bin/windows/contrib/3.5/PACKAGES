@@ -16,7 +16,7 @@ Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: fgeo.tool
-Version: 1.0.3
+Version: 1.1.0
 Depends: R (>= 3.3)
 Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
 Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr

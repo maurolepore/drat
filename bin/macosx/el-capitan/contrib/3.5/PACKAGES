@@ -1,21 +1,19 @@
 Package: fgeo.analyze
 Version: 1.1.0
 Depends: R (>= 3.2)
-Imports: dplyr, fgeo.tool, fgeo.x, glue, graphics, grDevices, lubridate,
-        magrittr, MASS, purrr, rlang, stats, tibble, tidyr, withr
-Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
-        testthat
+Imports: dplyr, fgeo.tool, fgeo.x, glue, graphics, grDevices, lubridate, magrittr,
+         MASS, purrr, rlang, stats, tibble, tidyr, withr
+Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: 8bb6403e28d4d91de8c45c876e1a1961
 
 Package: fgeo.tool
-Version: 1.1.0
+Version: 1.2.0
 Depends: R (>= 3.3)
-Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble,
-        tidyselect
-Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
+Imports: dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
+Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
 License: GPL-3
-MD5sum: 2065a0dd06b9b0d7435011a34a3d5053
+MD5sum: a145a7825180b12cb67b74b682fd58fe
 
 Package: fgeo.x
 Version: 1.1.0

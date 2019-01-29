@@ -1,10 +1,9 @@
 Package: fgeo.analyze
 Version: 1.0.3
 Depends: R (>= 3.2)
-Imports: fgeo.x, fgeo.tool, dplyr, glue, graphics, grDevices, lubridate,
-         magrittr, MASS, purrr, rlang, stats, tibble, tidyr, withr
-Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
-         testthat
+Imports: fgeo.x, fgeo.tool, dplyr, glue, graphics, grDevices, lubridate, magrittr,
+         MASS, purrr, rlang, stats, tibble, tidyr, withr
+Suggests: covr, ggplot2, knitr, measurements, readr, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: ecc687ff9772dc01666d0efcdd8fbbba
 NeedsCompilation: no
@@ -12,20 +11,20 @@ NeedsCompilation: no
 Package: fgeo.plot
 Version: 1.0.4
 Depends: R (>= 3.3)
-Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr,
-         rlang, stats, stringr, purrr
+Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr, rlang,
+         stats, stringr, purrr
 Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: b1a15fe7ad5124fd8a9c6f831bc88511
 NeedsCompilation: no
 
 Package: fgeo.tool
-Version: 1.1.0
+Version: 1.2.0
 Depends: R (>= 3.3)
-Imports: fgeo.x, dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
-Suggests: covr, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
+Imports: dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
+Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
 License: GPL-3
-MD5sum: 281bc6699bcd840a17b7935634ff17fc
+MD5sum: 37d959263b3a0179020f3afd9926275f
 NeedsCompilation: no
 
 Package: fgeo.x
@@ -39,9 +38,9 @@ NeedsCompilation: no
 
 Package: fgeo
 Version: 1.0.1
-Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1),
-         fgeo.plot (>= 1.0.1), cli, crayon, dplyr, glue, magrittr, purrr, rlang,
-         rstudioapi, utils
+Imports: fgeo.x (>= 1.0.1), fgeo.tool (>= 1.0.1), fgeo.analyze (>= 1.0.1), fgeo.plot
+         (>= 1.0.1), cli, crayon, dplyr, glue, magrittr, purrr, rlang, rstudioapi,
+         utils
 Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: b70802ed94d2ee303e088ebbaf84e5e2

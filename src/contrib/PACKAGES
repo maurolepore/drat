@@ -10,13 +10,13 @@ MD5sum: d3c4e0a7121115e8283f1528364bca04
 NeedsCompilation: no
 
 Package: fgeo.plot
-Version: 1.1.0.9000
+Version: 1.1.0
 Depends: R (>= 3.3)
 Imports: dplyr, fgeo.tool, ggplot2, ggrepel, glue, magrittr, purrr, rlang, stats,
          stringr
 Suggests: covr, fgeo.x, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
-MD5sum: d1778fc59b95eb8f9d7d8d71e53814f0
+MD5sum: 7cc0358ec0648cf1c15c1efd04ca6376
 NeedsCompilation: no
 
 Package: fgeo.tool

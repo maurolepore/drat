@@ -1,3 +1,10 @@
+Package: fgeo
+Version: 1.1.0
+Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x, glue,
+        magrittr, purrr, rlang, rstudioapi, utils
+Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+
 Package: fgeo.analyze
 Version: 1.1.1
 Depends: R (>= 3.2)
@@ -11,8 +18,8 @@ Package: fgeo.krig
 Version: 1.0.0
 Depends: R (>= 3.2)
 Imports: fgeo.tool, geoR, MASS, purrr, rlang, stats, tibble
-Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling,
-        stringr, testthat, tidyr
+Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling, stringr,
+        testthat, tidyr
 License: GPL-3
 
 Package: fgeo.plot
@@ -27,8 +34,8 @@ Package: fgeo.tool
 Version: 1.2.0
 Depends: R (>= 3.3)
 Imports: dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
-Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr,
-        testthat, tidyr
+Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr, testthat,
+        tidyr
 License: GPL-3
 
 Package: fgeo.x
@@ -36,11 +43,4 @@ Version: 1.1.0
 Depends: R (>= 3.2)
 Imports: utils
 Suggests: spelling, testthat
-License: GPL-3
-
-Package: fgeo
-Version: 1.1.0
-Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x,
-        glue, magrittr, purrr, rlang, rstudioapi, utils
-Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
 License: GPL-3

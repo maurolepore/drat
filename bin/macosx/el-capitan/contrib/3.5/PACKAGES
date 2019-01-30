@@ -1,18 +1,18 @@
 Package: fgeo.analyze
 Version: 1.1.1
 Depends: R (>= 3.2)
-Imports: dplyr, fgeo.tool, glue, graphics, grDevices, lubridate, magrittr, MASS, purrr,
-         rlang, stats, tibble, tidyr, withr
-Suggests: covr, fgeo.x, ggplot2, knitr, measurements, readr, rmarkdown, spelling,
-         testthat
+Imports: dplyr, fgeo.tool, glue, graphics, grDevices, lubridate, magrittr,
+        MASS, purrr, rlang, stats, tibble, tidyr, withr
+Suggests: covr, fgeo.x, ggplot2, knitr, measurements, readr, rmarkdown,
+        spelling, testthat
 License: GPL-3
 MD5sum: 3838199022a1763ec687cb8cedb7e5a4
 
 Package: fgeo.plot
 Version: 1.1.0
 Depends: R (>= 3.3)
-Imports: dplyr, fgeo.tool, ggplot2, ggrepel, glue, magrittr, purrr, rlang, stats,
-         stringr
+Imports: dplyr, fgeo.tool, ggplot2, ggrepel, glue, magrittr, purrr, rlang,
+        stats, stringr
 Suggests: covr, fgeo.x, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 MD5sum: da4d50600b1c7be8124993257d61ee69
@@ -21,7 +21,8 @@ Package: fgeo.tool
 Version: 1.2.0
 Depends: R (>= 3.3)
 Imports: dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
-Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr, testthat, tidyr
+Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr,
+        testthat, tidyr
 License: GPL-3
 MD5sum: a145a7825180b12cb67b74b682fd58fe
 
@@ -32,3 +33,11 @@ Imports: utils
 Suggests: spelling, testthat
 License: GPL-3
 MD5sum: f8c4143a6718c90afeeed00d59a69357
+
+Package: fgeo
+Version: 1.1.0
+Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x,
+        glue, magrittr, purrr, rlang, rstudioapi, utils
+Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 1630af00445fa0bb17156c54c53f7c43

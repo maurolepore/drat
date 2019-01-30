@@ -9,6 +9,16 @@ License: GPL-3
 MD5sum: d3c4e0a7121115e8283f1528364bca04
 NeedsCompilation: no
 
+Package: fgeo.krig
+Version: 1.0.0
+Depends: R (>= 3.2)
+Imports: fgeo.tool, geoR, MASS, purrr, rlang, stats, tibble
+Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling,
+        stringr, testthat, tidyr
+License: GPL-3
+MD5sum: 5bf71677c9d9b0f70f9454b6cc9eb9a0
+NeedsCompilation: no
+
 Package: fgeo.plot
 Version: 1.1.0
 Depends: R (>= 3.3)

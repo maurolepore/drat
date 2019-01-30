@@ -8,6 +8,15 @@ Suggests: covr, fgeo.x, ggplot2, knitr, measurements, readr, rmarkdown,
 License: GPL-3
 MD5sum: 3838199022a1763ec687cb8cedb7e5a4
 
+Package: fgeo.krig
+Version: 1.0.0
+Depends: R (>= 3.2)
+Imports: fgeo.tool, geoR, MASS, purrr, rlang, stats, tibble
+Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling,
+        stringr, testthat, tidyr
+License: GPL-3
+MD5sum: 67c64f2a8871921f4e5c879938df5f5c
+
 Package: fgeo.plot
 Version: 1.1.0
 Depends: R (>= 3.3)

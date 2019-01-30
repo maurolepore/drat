@@ -7,6 +7,14 @@ Suggests: covr, fgeo.x, ggplot2, knitr, measurements, readr, rmarkdown,
         spelling, testthat
 License: GPL-3
 
+Package: fgeo.krig
+Version: 1.0.0
+Depends: R (>= 3.2)
+Imports: fgeo.tool, geoR, MASS, purrr, rlang, stats, tibble
+Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling,
+        stringr, testthat, tidyr
+License: GPL-3
+
 Package: fgeo.plot
 Version: 1.1.0
 Depends: R (>= 3.3)

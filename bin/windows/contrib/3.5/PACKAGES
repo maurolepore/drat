@@ -8,11 +8,11 @@ Suggests: covr, fgeo.x, ggplot2, knitr, measurements, readr, rmarkdown, spelling
 License: GPL-3
 
 Package: fgeo.plot
-Version: 1.0.4
+Version: 1.1.0.9000
 Depends: R (>= 3.3)
-Imports: fgeo.x, fgeo.tool, dplyr, ggplot2, ggrepel, glue, grDevices, magrittr, rlang,
-         stats, stringr, purrr
-Suggests: covr, gridExtra, knitr, rmarkdown, spelling, testthat
+Imports: dplyr, fgeo.tool, ggplot2, ggrepel, glue, magrittr, purrr, rlang, stats,
+         stringr
+Suggests: covr, fgeo.x, gridExtra, knitr, rmarkdown, spelling, testthat
 License: GPL-3
 
 Package: fgeo.tool

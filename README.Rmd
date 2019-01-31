@@ -14,34 +14,51 @@ This is a CRAN-like repository serving source and binary versions of released [_
 
 ## Example
 
+Setup the "repos" option to include the CRAN-like repository that serves __fgeo__ packages, i.e.  <https://forestgeo.github.io/drat>.
+
+```
+options(
+  repos = c(getOption("repos"), forestgeo = "https://forestgeo.github.io/drat")
+)
+```
+
 Install the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
 
 ```R
-these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
-install.packages("fgeo", repos = these_repos)
+install.packages("fgeo")
 ```
 
 Update packages, including the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
 
 ```R
-these_repos <- c(getOption("repos"), "https://forestgeo.github.io/drat")
-update.packages(repos = these_repos)
+update.packages()
 ```
 
-## Available source packages:
+### Available source packages:
 
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
-## Available binary packages for R 3.5 on Windows:
+### Available binary packages for windows:
 
 ```{r}
-bin_pkg <- fs::dir_ls(here::here("bin/windows/contrib/3.5"), glob = "*zip")
+bin_pkg <- fs::dir_ls(
+  here::here("bin/windows/"), glob = "*zip", recursive = TRUE
+)
+show_files(bin_pkg)
+```
+
+### Available binary packages for macosx:
+
+```{r}
+bin_pkg <- fs::dir_ls(
+  here::here("bin/macosx/"), glob = "*tgz", recursive = TRUE
+)
 show_files(bin_pkg)
 ```
 
 ---
 
-‘Drat’ R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)
+"Drat" R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)

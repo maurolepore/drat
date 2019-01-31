@@ -35,6 +35,7 @@ update.packages()
     #> fgeo.tool_1.0.3.tar.gz
     #> fgeo.tool_1.1.0.tar.gz
     #> fgeo.tool_1.2.0.tar.gz
+    #> fgeo.tool_1.2.1.tar.gz
     #> fgeo.x_1.0.1.tar.gz
     #> fgeo.x_1.1.0.tar.gz
     #> fgeo_1.0.1.tar.gz
@@ -50,6 +51,7 @@ update.packages()
     #> fgeo.tool_1.0.3.zip
     #> fgeo.tool_1.1.0.zip
     #> fgeo.tool_1.2.0.zip
+    #> fgeo.tool_1.2.1.zip
     #> fgeo.x_1.0.1.zip
     #> fgeo.x_1.1.0.zip
     #> fgeo_1.0.1.zip
@@ -63,6 +65,7 @@ update.packages()
     #> fgeo.plot_1.1.0.tgz
     #> fgeo.tool_1.1.0.tgz
     #> fgeo.tool_1.2.0.tgz
+    #> fgeo.tool_1.2.1.tgz
     #> fgeo.x_1.1.0.tgz
     #> fgeo_1.1.0.tgz
 

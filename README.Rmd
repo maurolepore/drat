@@ -12,7 +12,7 @@ show_files <- function(pkgs) {
 
 This is a CRAN-like repository serving source and binary versions of released [__fgeo__ packages](https://forestgeo.github.io/fgeo/).
 
-## Example
+### Example
 
 Setup the "repos" option to include the CRAN-like repository that serves __fgeo__ packages, i.e.  <https://forestgeo.github.io/drat>.
 

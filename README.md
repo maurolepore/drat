@@ -2,7 +2,7 @@
 This is a CRAN-like repository serving source and binary versions of
 released [**fgeo** packages](https://forestgeo.github.io/fgeo/).
 
-## Example
+### Example
 
 Setup the “repos” option to include the CRAN-like repository that serves
 **fgeo** packages, i.e. <https://forestgeo.github.io/drat>.

@@ -34,6 +34,7 @@ update.packages()
 ```
 #> fgeo.analyze_1.0.3.tar.gz
 #> fgeo.analyze_1.1.1.tar.gz
+#> fgeo.analyze_1.1.2.tar.gz
 #> fgeo.krig_1.0.0.tar.gz
 #> fgeo.plot_1.0.4.tar.gz
 #> fgeo.plot_1.1.0.tar.gz
@@ -54,6 +55,7 @@ update.packages()
 ```
 #> fgeo.analyze_1.0.3.zip
 #> fgeo.analyze_1.1.1.zip
+#> fgeo.analyze_1.1.2.zip
 #> fgeo.krig_1.0.0.zip
 #> fgeo.plot_1.0.4.zip
 #> fgeo.plot_1.1.0.zip
@@ -74,6 +76,7 @@ update.packages()
 ```
 #> fgeo.analyze_1.1.0.tgz
 #> fgeo.analyze_1.1.1.tgz
+#> fgeo.analyze_1.1.2.tgz
 #> fgeo.krig_1.0.0.tgz
 #> fgeo.plot_1.1.0.tgz
 #> fgeo.plot_1.1.1.tgz

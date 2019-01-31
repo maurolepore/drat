@@ -1,12 +1,3 @@
-Package: fgeo
-Version: 1.1.0
-Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x, glue,
-        magrittr, purrr, rlang, rstudioapi, utils
-Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
-License: GPL-3
-MD5sum: 64b6bd558d35fc4a09ed9813162bc242
-NeedsCompilation: no
-
 Package: fgeo.analyze
 Version: 1.1.1
 Depends: R (>= 3.2)
@@ -22,8 +13,8 @@ Package: fgeo.krig
 Version: 1.0.0
 Depends: R (>= 3.2)
 Imports: fgeo.tool, geoR, MASS, purrr, rlang, stats, tibble
-Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling, stringr,
-        testthat, tidyr
+Suggests: covr, dplyr, ggplot2, knitr, lattice, rmarkdown, spelling,
+        stringr, testthat, tidyr
 License: GPL-3
 MD5sum: 5bf71677c9d9b0f70f9454b6cc9eb9a0
 NeedsCompilation: no
@@ -42,8 +33,8 @@ Package: fgeo.tool
 Version: 1.2.0
 Depends: R (>= 3.3)
 Imports: dplyr, glue, magrittr, purrr, readr, rlang, tibble, tidyselect
-Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr, testthat,
-        tidyr
+Suggests: covr, fgeo.x, knitr, pingr, roxygen2, spelling, stringr,
+        testthat, tidyr
 License: GPL-3
 MD5sum: 37d959263b3a0179020f3afd9926275f
 NeedsCompilation: no
@@ -55,4 +46,13 @@ Imports: utils
 Suggests: spelling, testthat
 License: GPL-3
 MD5sum: 00e7174764bb3dbca83231842e9f292b
+NeedsCompilation: no
+
+Package: fgeo
+Version: 1.1.0
+Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x,
+        glue, magrittr, purrr, rlang, rstudioapi, utils
+Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
+License: GPL-3
+MD5sum: 64b6bd558d35fc4a09ed9813162bc242
 NeedsCompilation: no

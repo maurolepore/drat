@@ -3,14 +3,15 @@ output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, comment = "#>", echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE, comment = "", echo = FALSE)
 
 show_files <- function(pkgs) {
-  cat(fs::path_file(pkgs), sep = "\n")
+  paths <- rev(fs::path_file(pkgs))
+  cat(paths, sep = "\n")
 }
 ```
 
-This is a CRAN-like repository serving source and binary versions of released [__fgeo__ packages](https://forestgeo.github.io/fgeo/).
+This is a CRAN-like repository serving source and binary versions of curated R-packages hosted at <https://forestgeo.github.io/>.
 
 ### Example
 
@@ -34,16 +35,16 @@ Update packages, including the latest stable version of all [fgeo packages](http
 update.packages()
 ```
 
-<details> <summary><strong>Latest source packages</strong></summary>
+### Latest source packages
+
+(Earlier source packages are archived.)
 
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
-</details>
-
-<details> <summary><strong>All binary packages for windows</strong></summary>
+### All binary packages for windows
 
 ```{r}
 bin_pkg <- fs::dir_ls(
@@ -52,9 +53,7 @@ bin_pkg <- fs::dir_ls(
 show_files(bin_pkg)
 ```
 
-</details>
-
-<details> <summary><strong>All binary packages for macosx</strong></summary>
+### All binary packages for macosx
 
 ```{r}
 bin_pkg <- fs::dir_ls(
@@ -62,8 +61,6 @@ bin_pkg <- fs::dir_ls(
 )
 show_files(bin_pkg)
 ```
-
-</details>
 
 ---
 

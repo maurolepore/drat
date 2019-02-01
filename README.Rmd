@@ -61,4 +61,5 @@ show_files(bin_pkg)
 
 ---
 
-"Drat" R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat)
+"Drat" R Archive Template created by the [drat package](https://CRAN.R-project.org/package=drat).
+

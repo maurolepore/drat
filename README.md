@@ -81,4 +81,4 @@ update.packages()
 -----
 
 “Drat” R Archive Template created by the [drat
-package](https://CRAN.R-project.org/package=drat)
+package](https://CRAN.R-project.org/package=drat).

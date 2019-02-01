@@ -34,14 +34,16 @@ Update packages, including the latest stable version of all [fgeo packages](http
 update.packages()
 ```
 
-### Latest source packages:
+<details> <summary><strong>Latest source packages</strong></summary>
 
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
-### All binary packages for windows:
+</details>
+
+<details> <summary><strong>All binary packages for windows</strong></summary>
 
 ```{r}
 bin_pkg <- fs::dir_ls(
@@ -50,7 +52,9 @@ bin_pkg <- fs::dir_ls(
 show_files(bin_pkg)
 ```
 
-### All binary packages for macosx:
+</details>
+
+<details> <summary><strong>All binary packages for macosx</strong></summary>
 
 ```{r}
 bin_pkg <- fs::dir_ls(
@@ -58,6 +62,8 @@ bin_pkg <- fs::dir_ls(
 )
 show_files(bin_pkg)
 ```
+
+</details>
 
 ---
 

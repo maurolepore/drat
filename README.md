@@ -25,7 +25,9 @@ packages](https://forestgeo.github.io/fgeo/) with:
 update.packages()
 ```
 
-### Latest source packages:
+<details>
+
+<summary><strong>Latest source packages</strong></summary>
 
     #> fgeo.analyze_1.1.2.tar.gz
     #> fgeo.krig_1.0.0.tar.gz
@@ -34,7 +36,11 @@ update.packages()
     #> fgeo.x_1.1.0.tar.gz
     #> fgeo_1.1.1.tar.gz
 
-### All binary packages for windows:
+</details>
+
+<details>
+
+<summary><strong>All binary packages for windows</strong></summary>
 
     #> fgeo.analyze_1.0.3.zip
     #> fgeo.analyze_1.1.1.zip
@@ -53,7 +59,11 @@ update.packages()
     #> fgeo_1.1.0.zip
     #> fgeo_1.1.1.zip
 
-### All binary packages for macosx:
+</details>
+
+<details>
+
+<summary><strong>All binary packages for macosx</strong></summary>
 
     #> fgeo.analyze_1.1.0.tgz
     #> fgeo.analyze_1.1.1.tgz
@@ -67,6 +77,8 @@ update.packages()
     #> fgeo.x_1.1.0.tgz
     #> fgeo_1.1.0.tgz
     #> fgeo_1.1.1.tgz
+
+</details>
 
 -----
 

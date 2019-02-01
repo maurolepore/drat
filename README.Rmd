@@ -11,11 +11,11 @@ show_files <- function(pkgs) {
 }
 ```
 
-This is a CRAN-like repository serving source and binary versions of curated R-packages hosted at <https://forestgeo.github.io/>.
+This is a CRAN-like repository serving source and binary versions of selected R-packages from <https://forestgeo.github.io/>.
 
 ### Example
 
-Setup the "repos" option to include the CRAN-like repository that serves __fgeo__ packages, i.e.  <https://forestgeo.github.io/drat>.
+Setup the "repos" option to include this repository.
 
 ```
 options(
@@ -23,16 +23,22 @@ options(
 )
 ```
 
-Install the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
+You can now install packages as usual. For example:
 
-```R
+```{r}
 install.packages("fgeo")
 ```
 
-Update packages, including the latest stable version of all [fgeo packages](https://forestgeo.github.io/fgeo/) with:
+You can also update all packages with:
 
 ```R
 update.packages()
+```
+
+Or update only the packages from this repository with:
+
+```R
+update.packages(repos = "https://forestgeo.github.io/drat")
 ```
 
 ### Latest source packages

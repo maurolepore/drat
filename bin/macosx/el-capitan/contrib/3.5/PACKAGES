@@ -52,9 +52,12 @@ License: GPL-3
 MD5sum: f8c4143a6718c90afeeed00d59a69357
 
 Package: fgeo
-Version: 1.1.0
-Imports: cli, crayon, dplyr, fgeo.analyze, fgeo.plot, fgeo.tool, fgeo.x,
-        glue, magrittr, purrr, rlang, rstudioapi, utils
-Suggests: covr, DT, knitr, rmarkdown, spelling, testthat
+Version: 1.1.1
+Imports: cli (>= 1.0.1), crayon (>= 1.3.4), dplyr (>= 0.7.8), fgeo.analyze
+        (>= 1.1.2), fgeo.plot (>= 1.1.1), fgeo.tool (>= 1.2.1), fgeo.x (>=
+        1.1.0), glue (>= 1.3.0), magrittr (>= 1.5), purrr (>= 0.3.0), rlang
+        (>= 0.3.1), rstudioapi (>= 0.9.0), utils
+Suggests: covr (>= 3.2.1), DT (>= 0.5), knitr (>= 1.21), rmarkdown (>= 1.11),
+        spelling (>= 2.0), testthat (>= 2.0.1)
 License: GPL-3
-MD5sum: 1630af00445fa0bb17156c54c53f7c43
+MD5sum: 65ecc5d7d4d8a85654624aa0b48f7eca

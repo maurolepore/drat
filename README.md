@@ -47,6 +47,7 @@ update.packages()
 #> fgeo.x_1.1.0.tar.gz
 #> fgeo_1.0.1.tar.gz
 #> fgeo_1.1.0.tar.gz
+#> fgeo_1.1.1.tar.gz
 ```
 
 ### Available binary packages for windows:
@@ -68,6 +69,7 @@ update.packages()
 #> fgeo.x_1.1.0.zip
 #> fgeo_1.0.1.zip
 #> fgeo_1.1.0.zip
+#> fgeo_1.1.1.zip
 ```
 
 ### Available binary packages for macosx:
@@ -85,6 +87,7 @@ update.packages()
 #> fgeo.tool_1.2.1.tgz
 #> fgeo.x_1.1.0.tgz
 #> fgeo_1.1.0.tgz
+#> fgeo_1.1.1.tgz
 ```
 
 ---

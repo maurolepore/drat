@@ -19,7 +19,7 @@ You can now install packages as usual. For
     package 'fgeo' successfully unpacked and MD5 sums checked
     
     The downloaded binary packages are in
-        C:\Users\LeporeM\AppData\Local\Temp\1\RtmpCE1Re5\downloaded_packages
+        C:\Users\LeporeM\AppData\Local\Temp\1\RtmpgvVRkK\downloaded_packages
 
 You can also update all packages with:
 
@@ -41,10 +41,8 @@ update.packages(repos = "https://forestgeo.github.io/drat")
     fgeo.x_1.1.0.tar.gz
     fgeo.tool_1.2.1.tar.gz
     fgeo.plot_1.1.2.tar.gz
-    fgeo.plot_1.1.1.tar.gz
     fgeo.krig_1.0.0.tar.gz
     fgeo.analyze_1.1.3.tar.gz
-    fgeo.analyze_1.1.2.tar.gz
 
 ### All binary packages for windows
 

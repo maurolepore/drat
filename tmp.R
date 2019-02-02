@@ -1,15 +1,21 @@
-build_and_add_package <- function(path = "../fgeo", repodir = ".", binary = FALSE) {
+build_and_add_package <- function(path = "../fgeo",
+                                  repodir = ".",
+                                  binary = FALSE) {
   drat::insertPackage(devtools::build(path, binary = binary), repodir = repodir)
 }
-build_and_add_package("../fgeo.plot", binary = TRUE)
+
+# Source
 build_and_add_package("../fgeo.plot", binary = FALSE)
-
-# install.packages("fgeo", repos = "https://maurolepore.github.io/drat/")
-
-# # # drat::insertPackage("../fgeo.x_1.1.0.tgz", repodir = ".")
-# drat::insertPackage(
-#   "C:/Users/LeporeM/Downloads/fgeo.plot_1.1.0.tgz",
-#   repodir = "."
-# )
-
+# Windows binary
+build_and_add_package("../fgeo.plot", binary = TRUE)
+# macosx binary
+drat::insertPackage(
+  "C:/Users/LeporeM/Downloads/fgeo.analyze_1.1.3.tgz",
+  repodir = "."
+)
+# Update webpage
 knitr::knit("README.Rmd")
+
+
+# Test
+# install.packages("fgeo", repos = "https://maurolepore.github.io/drat/")

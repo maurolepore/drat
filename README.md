@@ -1,32 +1,8 @@
 
-This is a CRAN-like repository serving source and binary versions of
-selected R-packages from <https://forestgeo.github.io/>.
-
-### Example
-
-Setup the “repos” option to include this repository.
-
-    options(
-      repos = c(getOption("repos"), forestgeo = "https://forestgeo.github.io/drat")
-    )
-
-You can now install packages as usual. For example:
-
-``` r
-install.packages("fgeo")
-```
-
-You can also update all packages with:
-
-``` r
-update.packages()
-```
-
-Or update only the packages from this repository with:
-
-``` r
-update.packages(repos = "https://forestgeo.github.io/drat")
-```
+This repository provides a CRAN-like repository to serve selected
+R-packages from <https://forestgeo.github.io/>. For an example see the
+[installation instructions of the **fgeo**
+package](https://forestgeo.github.io/fgeo/#installation).
 
 ### Latest source packages
 

@@ -20,7 +20,15 @@ You can now install packages as usual. For example:
 
 
 ```
-Error in install.packages : Updating loaded packages
+Installing package into 'C:/Users/LeporeM/Documents/R/win-library/3.5'
+(as 'lib' is unspecified)
+```
+
+```
+package 'fgeo' successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\LeporeM\AppData\Local\Temp\1\Rtmpm4Vvqj\downloaded_packages
 ```
 
 You can also update all packages with:
@@ -89,6 +97,7 @@ fgeo.plot_1.1.2.tgz
 fgeo.plot_1.1.1.tgz
 fgeo.plot_1.1.0.tgz
 fgeo.krig_1.0.0.tgz
+fgeo.analyze_1.1.3.tgz
 fgeo.analyze_1.1.2.tgz
 fgeo.analyze_1.1.1.tgz
 fgeo.analyze_1.1.0.tgz

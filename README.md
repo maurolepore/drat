@@ -10,16 +10,11 @@ Setup the “repos” option to include this repository.
       repos = c(getOption("repos"), forestgeo = "https://forestgeo.github.io/drat")
     )
 
-You can now install packages as usual. For
-    example:
+You can now install packages as usual. For example:
 
-    Installing package into 'C:/Users/LeporeM/Documents/R/win-library/3.5'
-    (as 'lib' is unspecified)
-
-    package 'fgeo' successfully unpacked and MD5 sums checked
-    
-    The downloaded binary packages are in
-        C:\Users\LeporeM\AppData\Local\Temp\1\RtmpgvVRkK\downloaded_packages
+``` r
+install.packages("fgeo")
+```
 
 You can also update all packages with:
 

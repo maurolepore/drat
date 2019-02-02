@@ -25,7 +25,7 @@ options(
 
 You can now install packages as usual. For example:
 
-```{r}
+```R
 install.packages("fgeo")
 ```
 

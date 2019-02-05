@@ -44,12 +44,12 @@ License: GPL-3
 MD5sum: 300e9b934b79ae9e1ad7d841f2cc2641
 
 Package: fgeo.x
-Version: 1.1.1
+Version: 1.1.2
 Depends: R (>= 3.2)
 Imports: utils
 Suggests: spelling, testthat
 License: GPL-3
-MD5sum: 3bfa0a85cdaeffdc7cec52f32dfdcbb2
+MD5sum: 8c622c13b9128ca9ef937397313539ed
 
 Package: fgeo
 Version: 1.1.1

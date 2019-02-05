@@ -17,19 +17,18 @@ build_and_add_binary("../fgeo.x")
 # TODO: Build binary of other os at https://builder.r-hub.io/
 # Add
 drat::insertPackage(
-  "C:/Users/LeporeM/Downloads/fgeo.x_1.1.1.tgz",
+  "C:/Users/LeporeM/Downloads/fgeo.x_1.1.2.tgz",
   repodir = "."
 )
 
 # TODO: WAIT A FEW SECONDS UNTIL ALL FILES APPEAR ON THE GIT TAB
 
 # TODO: Archive
-
 drat::archivePackages(".")
 
 # TODO: Knit README
 
-# TODO: Push
+# TODO: Push origin and upstream
 
 # Test
 # install.packages("fgeo", repos = "https://maurolepore.github.io/drat/")

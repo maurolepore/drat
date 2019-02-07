@@ -11,7 +11,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
     fgeo_1.1.1.tar.gz
     fgeo.x_1.1.2.tar.gz
     fgeo.tool_1.2.2.tar.gz
-    fgeo.plot_1.1.2.tar.gz
+    fgeo.plot_1.1.3.tar.gz
     fgeo.krig_1.0.0.tar.gz
     fgeo.analyze_1.1.3.tar.gz
 
@@ -29,6 +29,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
     fgeo.tool_1.2.0.zip
     fgeo.tool_1.1.0.zip
     fgeo.tool_1.0.3.zip
+    fgeo.plot_1.1.3.zip
     fgeo.plot_1.1.2.zip
     fgeo.plot_1.1.1.zip
     fgeo.plot_1.1.0.zip
@@ -50,6 +51,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
     fgeo.tool_1.2.1.tgz
     fgeo.tool_1.2.0.tgz
     fgeo.tool_1.1.0.tgz
+    fgeo.plot_1.1.3.tgz
     fgeo.plot_1.1.2.tgz
     fgeo.plot_1.1.1.tgz
     fgeo.plot_1.1.0.tgz

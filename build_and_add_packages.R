@@ -10,9 +10,9 @@ build_and_add_binary <- function(path, repodir = ".") {
 
 # Do ----
 
-build_and_add_source("../fgeo.tool")
+build_and_add_source("../fgeo.plot")
 
-build_and_add_binary("../fgeo.tool")
+build_and_add_binary("../fgeo.plot")
 
 # TODO: Archive
 drat::archivePackages(".")
@@ -20,7 +20,7 @@ drat::archivePackages(".")
 # TODO: Build binary of other os at https://builder.r-hub.io/
 # Add
 drat::insertPackage(
-  "C:/Users/LeporeM/Downloads/fgeo.tool_1.2.2.tgz",
+  "C:/Users/LeporeM/Downloads/fgeo.plot_1.1.3.tgz",
   repodir = "."
 )
 

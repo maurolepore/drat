@@ -3,8 +3,8 @@ Version: 1.1.3
 Depends: R (>= 3.2)
 Imports: dplyr (>= 0.7.8), fgeo.tool (>= 1.2.1), glue (>= 1.3.0), graphics,
         grDevices, lubridate (>= 1.7.4), magrittr (>= 1.5), MASS, purrr (>=
-        0.3.0), rlang (>= 0.3.1), stats, tibble (>= 2.0.1), tidyr (>=
-        0.8.2), withr (>= 2.1.2)
+        0.3.0), rlang (>= 0.3.1), stats, tibble (>= 2.0.1), tidyr (>= 0.8.2),
+        withr (>= 2.1.2)
 Suggests: covr (>= 3.2.1), fgeo.x (>= 1.1.0), ggplot2 (>= 3.1.0), knitr (>=
         1.21), measurements (>= 1.3.0), readr (>= 1.3.1), rmarkdown (>=
         1.11), spelling (>= 2.0), testthat (>= 2.0.1)
@@ -21,15 +21,15 @@ License: GPL-3
 MD5sum: 67c64f2a8871921f4e5c879938df5f5c
 
 Package: fgeo.plot
-Version: 1.1.3
-Depends: R (>= 3.2)
-Imports: dplyr (>= 0.7.8), fgeo.tool (>= 1.2.2), ggplot2 (>= 3.1.0), ggrepel
+Version: 1.1.2
+Depends: R (>= 3.3)
+Imports: dplyr (>= 0.7.8), fgeo.tool (>= 1.2.1), ggplot2 (>= 3.1.0), ggrepel
         (>= 0.8.0), glue (>= 1.3.0), magrittr (>= 1.5), purrr (>= 0.3.0),
         rlang (>= 0.3.1), stats, stringr (>= 1.3.1)
-Suggests: covr (>= 3.2.1), fgeo.x (>= 1.1.2), gridExtra (>= 2.3), knitr (>=
+Suggests: covr (>= 3.2.1), fgeo.x (>= 1.1.0), gridExtra (>= 2.3), knitr (>=
         1.21), rmarkdown (>= 1.11), spelling (>= 2.0), testthat (>= 2.0.1)
 License: GPL-3
-MD5sum: cb5ea117853a44af0ebe87feb4ebac8d
+MD5sum: c612318f2c2f4f9ae696b9cbbbb4192b
 
 Package: fgeo.tool
 Version: 1.2.2
@@ -53,8 +53,8 @@ MD5sum: 8c622c13b9128ca9ef937397313539ed
 
 Package: fgeo
 Version: 1.1.1
-Imports: cli (>= 1.0.1), crayon (>= 1.3.4), dplyr (>= 0.7.8), fgeo.analyze
-        (>= 1.1.2), fgeo.plot (>= 1.1.1), fgeo.tool (>= 1.2.1), fgeo.x (>=
+Imports: cli (>= 1.0.1), crayon (>= 1.3.4), dplyr (>= 0.7.8), fgeo.analyze (>=
+        1.1.2), fgeo.plot (>= 1.1.1), fgeo.tool (>= 1.2.1), fgeo.x (>=
         1.1.0), glue (>= 1.3.0), magrittr (>= 1.5), purrr (>= 0.3.0), rlang
         (>= 0.3.1), rstudioapi (>= 0.9.0), utils
 Suggests: covr (>= 3.2.1), DT (>= 0.5), knitr (>= 1.21), rmarkdown (>= 1.11),

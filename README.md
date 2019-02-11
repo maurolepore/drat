@@ -8,7 +8,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
 
 (Earlier source packages are archived.)
 
-    fgeo_1.1.1.tar.gz
+    fgeo_1.1.2.tar.gz
     fgeo.x_1.1.2.tar.gz
     fgeo.tool_1.2.2.tar.gz
     fgeo.plot_1.1.3.tar.gz
@@ -17,6 +17,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
 
 ### All binary packages for windows
 
+    fgeo_1.1.2.zip
     fgeo_1.1.1.zip
     fgeo_1.1.0.zip
     fgeo_1.0.1.zip
@@ -43,6 +44,7 @@ package](https://forestgeo.github.io/fgeo/#installation).
 
 ### All binary packages for macosx
 
+    fgeo_1.1.2.tgz
     fgeo_1.1.1.tgz
     fgeo_1.1.0.tgz
     fgeo.x_1.1.2.tgz

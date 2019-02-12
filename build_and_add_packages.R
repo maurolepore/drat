@@ -4,15 +4,15 @@ delete_PACKAGES <- function(path) {
   fs::file_delete(fs::dir_ls(path, regexp = "PACKAGES"))
 }
 
-write_src_PACKAGES <- function(dir = path_src()) {
+write_PACKAGES_src <- function(dir = path_src()) {
   tools::write_PACKAGES(dir = dir, type = "source")
 }
 
-write_mac_PACKAGES <- function(dir = path_mac()) {
+write_PACKAGES_mac <- function(dir = path_mac()) {
   tools::write_PACKAGES(dir = dir, type = "mac.binary")
 }
 
-write_win_PACKAGES <- function(dir = path_win()) {
+write_PACKAGES_win <- function(dir = path_win()) {
   tools::write_PACKAGES(dir = dir, type = "win.binary")
 }
 
@@ -27,9 +27,11 @@ pull_minor <- function() {
 path_src <- function() {
   here::here("src", "contrib")
 }
+
 path_win <- function() {
   here::here("bin", "windows", "contrib", this_r_version())
 }
+
 path_mac <- function(mac_version = "el-capitan") {
   here::here("bin", "macosx", mac_version, "contrib", this_r_version())
 }

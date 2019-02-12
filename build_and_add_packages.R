@@ -58,7 +58,7 @@ drat::archivePackages(".")
 # TODO: Build binary of other os at https://builder.r-hub.io/
 # Add
 drat::insertPackage(
-  "C:/Users/LeporeM/Downloads/fgeo_1.1.2.tgz",
+  "C:/Users/LeporeM/Downloads/fgeo.krig_1.0.1.tgz",
   repodir = "."
 )
 

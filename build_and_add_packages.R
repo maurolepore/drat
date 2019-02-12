@@ -1,5 +1,9 @@
 # Functions ----
 
+delete_PACKAGES <- function(path) {
+  fs::file_delete(fs::dir_ls(path, regexp = "PACKAGES"))
+}
+
 write_src_PACKAGES <- function(dir = path_src()) {
   tools::write_PACKAGES(dir = dir, type = "source")
 }
@@ -27,7 +31,7 @@ path_win <- function() {
   here::here("bin", "windows", "contrib", this_r_version())
 }
 path_mac <- function(mac_version = "el-capitan") {
-  here::here("bin", "macosx", "contrib", mac_version, this_r_version())
+  here::here("bin", "macosx", mac_version, "contrib", this_r_version())
 }
 
 

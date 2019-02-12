@@ -10,9 +10,9 @@ build_and_add_binary <- function(path, repodir = ".") {
 
 # Do ----
 
-build_and_add_source("../fgeo")
+build_and_add_source("../fgeo.krig")
 
-build_and_add_binary("../fgeo")
+build_and_add_binary("../fgeo.krig")
 
 # TODO: Archive
 drat::archivePackages(".")

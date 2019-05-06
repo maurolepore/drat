@@ -6,7 +6,7 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE, comment = "", echo = FALSE)
 
 show_files <- function(pkgs) {
-  paths <- rev(fs::path_file(pkgs))
+  paths <- rev(fs::path(fs::path_file(fs::path_dir(pkgs)), fs::path_file(pkgs)))
   cat(paths, sep = "\n")
 }
 ```
@@ -15,19 +15,17 @@ This repository provides a CRAN-like repository to serve selected R-packages fro
 
 ### Latest source packages
 
-(Earlier source packages are archived.)
-
 ```{r}
 src_pkg <- fs::dir_ls(here::here("src/contrib"), glob = "*tar.gz")
 show_files(src_pkg)
 ```
 
+(Earlier source packages may be archived.)
+
 ### All binary packages for windows
 
 ```{r}
-bin_pkg <- fs::dir_ls(
-  here::here("bin/windows/"), glob = "*zip", recursive = TRUE
-)
+bin_pkg <- fs::dir_ls(here::here("bin/windows/"), glob = "*zip", recurse = TRUE)
 show_files(bin_pkg)
 ```
 

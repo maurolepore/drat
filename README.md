@@ -6,40 +6,43 @@ package](https://forestgeo.github.io/fgeo/#installation).
 
 ### Latest source packages
 
-    contrib/fgeo_1.1.2.tar.gz
-    contrib/fgeo.x_1.1.2.tar.gz
-    contrib/fgeo.tool_1.2.2.tar.gz
-    contrib/fgeo.plot_1.1.3.tar.gz
-    contrib/fgeo.krig_1.0.1.tar.gz
-    contrib/fgeo.analyze_1.1.4.tar.gz
+(Earlier source packages are archived.)
 
-(Earlier source packages may be archived.)
+    fgeo_1.1.2.tar.gz
+    fgeo.x_1.1.2.tar.gz
+    fgeo.tool_1.2.2.tar.gz
+    fgeo.plot_1.1.3.tar.gz
+    fgeo.krig_1.0.1.tar.gz
+    fgeo.analyze_1.1.4.tar.gz
 
 ### All binary packages for windows
 
-    3.6/fgeo_1.1.2.zip
-    3.6/fgeo.x_1.1.2.zip
-    3.6/fgeo.tool_1.2.2.zip
-    3.6/fgeo.plot_1.1.3.zip
-    3.6/fgeo.krig_1.0.1.zip
-    3.6/fgeo.analyze_1.1.4.zip
-    3.5/fgeo_1.1.2.zip
-    3.5/fgeo.x_1.1.2.zip
-    3.5/fgeo.tool_1.2.2.zip
-    3.5/fgeo.plot_1.1.3.zip
-    3.5/fgeo.krig_1.0.1.zip
-    3.5/fgeo.analyze_1.1.4.zip
+    Warning: `recursive` is deprecated, please use `recurse` instead
+
+    fgeo_1.1.2.zip
+    fgeo.x_1.1.2.zip
+    fgeo.tool_1.2.2.zip
+    fgeo.plot_1.1.3.zip
+    fgeo.krig_1.0.1.zip
+    fgeo.analyze_1.1.4.zip
+    fgeo_1.1.2.zip
+    fgeo.x_1.1.2.zip
+    fgeo.tool_1.2.2.zip
+    fgeo.plot_1.1.3.zip
+    fgeo.krig_1.0.1.zip
+    fgeo.analyze_1.1.4.zip
 
 ### All binary packages for macosx
 
     Warning: `recursive` is deprecated, please use `recurse` instead
 
-    3.5/fgeo_1.1.2.tgz
-    3.5/fgeo.x_1.1.2.tgz
-    3.5/fgeo.tool_1.2.2.tgz
-    3.5/fgeo.plot_1.1.3.tgz
-    3.5/fgeo.krig_1.0.1.tgz
-    3.5/fgeo.analyze_1.1.4.tgz
+    fgeo.x_1.1.2.tgz
+    fgeo_1.1.2.tgz
+    fgeo.x_1.1.2.tgz
+    fgeo.tool_1.2.2.tgz
+    fgeo.plot_1.1.3.tgz
+    fgeo.krig_1.0.1.tgz
+    fgeo.analyze_1.1.4.tgz
 
 -----
 
